@@ -99,3 +99,44 @@ a:hover {
 .hero-copy {
   position: relative !important;
 }
+
+/* TIMELINE */
+
+.col-timeline {
+  /* display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-height: fit-content;
+  min-width: 100%;
+  gap: 1rem; */
+
+  max-width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  max-height: 350vh;
+  gap: 1rem;
+}
+
+.timeline-item {
+  max-width: 50%;
+  height: fit-content;
+}
+
+.timeline-1 {
+  order: 1;
+}
+.timeline-2 {
+  order: 4;
+}
+.timeline-3 {
+  order: 2;
+}
+.timeline-4 {
+  order: 5;
+}
+.timeline-5 {
+  order: 3;
+}
+.timeline-6 {
+  order: 6;
+}
