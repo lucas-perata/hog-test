@@ -114,7 +114,7 @@ a:hover {
   max-width: 100%;
   display: flex;
   flex-flow: column wrap;
-  max-height: 350vh;
+  max-height: 360vh;
   gap: 1rem;
 }
 
