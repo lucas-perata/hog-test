@@ -118,7 +118,8 @@ a:hover {
 }
 
 .timeline-item {
-  max-width: 50%;
+  max-width: 49%;
+  min-width: 27vw;
   height: fit-content;
 }
 
@@ -139,6 +140,39 @@ a:hover {
 }
 .timeline-6 {
   order: 6;
+}
+
+@media only screen and (max-width: 1068px) {
+  .col-timeline {
+    max-width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    max-height: fit-content;
+  }
+  .timeline-item {
+    max-width: 100%;
+    min-width: 27vw;
+    height: fit-content;
+  }
+
+  .timeline-1 {
+    order: 1;
+  }
+  .timeline-2 {
+    order: 2;
+  }
+  .timeline-3 {
+    order: 3;
+  }
+  .timeline-4 {
+    order: 4;
+  }
+  .timeline-5 {
+    order: 5;
+  }
+  .timeline-6 {
+    order: 6;
+  }
 }
 
 /* GALLERY NOT GRID SUPPORT */
