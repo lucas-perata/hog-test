@@ -31,6 +31,7 @@ a:hover {
 .hero-image {
   min-width: 50% !important;
   background-position: center !important;
+  margin: 0;
 }
 .hero-unit-space-frontier .hero-image-frontier {
   width: 1440px;
