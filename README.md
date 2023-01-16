@@ -1,1 +1,6 @@
-# hog-test
+# Technical TEST 
+
+Deploy: space-testh.netlify.app/ 
+
+## Considerations 
+* 
